@@ -47,11 +47,9 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img
-              src="/assets/uploads/Screenshot-2026-03-01-173058-1.png"
-              alt="Weight & Wash Laundry Services"
-              className="h-14 w-auto mb-4"
-            />
+            <p className="text-xl font-bold text-white mb-3">
+              Weight &amp; Wash
+            </p>
             <p className="text-sm leading-relaxed text-white/60 mb-6">
               Fresh. Fast. Professional.
               <br />

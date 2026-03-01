@@ -33,18 +33,16 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-        {/* Logo */}
+        {/* Brand Name */}
         <button
           type="button"
           onClick={() => handleNavClick("#home")}
           className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40 rounded"
           aria-label="Weight & Wash Home"
         >
-          <img
-            src="/assets/uploads/Screenshot-2026-03-01-173058-1.png"
-            alt="Weight & Wash Laundry Services"
-            className="h-12 w-auto"
-          />
+          <span className="text-white font-bold text-lg tracking-wide">
+            Weight &amp; Wash
+          </span>
         </button>
 
         {/* Desktop nav */}

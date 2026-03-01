@@ -41,7 +41,7 @@ export default function Navbar() {
           aria-label="Weight & Wash Home"
         >
           <img
-            src="/assets/uploads/ChatGPT-Image-Mar-1-2026-05_15_46-PM-1.png"
+            src="/assets/uploads/Screenshot-2026-03-01-173058-1.png"
             alt="Weight & Wash Laundry Services"
             className="h-12 w-auto"
           />
